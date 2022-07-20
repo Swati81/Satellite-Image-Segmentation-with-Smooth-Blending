@@ -9,8 +9,7 @@ import matplotlib.pyplot as plt
 
 patch_size = 256
 batch_size = 4
-# root_dir = 'nucleus_data'
-root_dir = 'satellite_data'
+root_dir = './satellite_data'
 
 
 def find_labels():
