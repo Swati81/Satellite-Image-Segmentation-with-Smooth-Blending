@@ -45,16 +45,6 @@ def make_directories():
         print("Directory can not be created")
 
 
-def make_class_neucleus(mask):
-    """
-        for neucleus data taking green channel only...
-        use this on patch_musk function...
-    """
-    mask_g = mask[:, :, 1].copy()
-    mask_g[mask_g == 128] = 1
-
-    return mask_g
-
 
 def make_class_landcover(mask):
     """
